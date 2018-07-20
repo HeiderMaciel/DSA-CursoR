@@ -6,12 +6,18 @@
 # Configurando o diretório de trabalho
 # Coloque entre aspas o diretório de trabalho que você está usando no seu computador
 # Não use diretórios com espaço no nome
-setwd("Z:/Dropbox/DSA/BigDataAnalytics-R-Azure/Cap03")
+setwd("C:/Users/Heider/Documents/GitHub/CursoR/Cap3")
 getwd()
 
-# Exercicio 1 - Crie uma funcao que receba e vetores como parametro, converta-os em um dataframe e imprima
+# Exercicio 1 - Crie uma funcao que receba vetores como parametro, converta-os em um dataframe e imprima
 vec1 <- (10:13)
 vec2 <- c("a", "b", "c", "d")
+
+vec1
+vec2
+
+class(vec1)
+class(vec2)
 
 myfunc <- function(x, y){
   df = data.frame(cbind(x, y))
@@ -19,13 +25,24 @@ myfunc <- function(x, y){
 }
 
 myfunc(vec1, vec2)
+class(myfunc)
+class(df)
 
+str(vec1)
+str(vec2)
+str(myfunc)
+
+dim(vec1)
+
+
+# Lista os arquivos carregados
+dir()
 
 # Exercicio 2 - Crie uma matriz com 4 linhas e 4 colunas preenchida com numeros inteiros e calcule a media de cada linha
 mat <- matrix(c(1:16), nrow = 4, ncol = 4)
 mat
 apply(mat, 1, mean)
-
+mean(c(1, 5))
 
 # Exercicio 3 - Considere o dataframe abaixo. Calcule a media por disciplina
 escola <- data.frame(Aluno = c('Alan', 'Alice', 'Alana', 'Aline', 'Alex', 'Ajay'),
