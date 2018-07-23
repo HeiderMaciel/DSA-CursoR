@@ -1,0 +1,4 @@
+sample.interval=20000
+"fsub" "htmlify" "isBlankLineRd" "addParaBreaks" "writeLines" "writeLinesUTF8" "of1" "writeBlock" "writeContent" "writeContent" "writeSection" "Rd2HTML" "<Anonymous>" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "try" "withCallingHandlers" "<Anonymous>" 
+"gsub" "urlify" "paste0" "writeLink" "writeBlock" "writeContent" "writeWrapped" "writeBlock" "writeContent" "writeSection" "Rd2HTML" "<Anonymous>" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "try" "withCallingHandlers" "<Anonymous>" 
+"psub" "htmlify" "isBlankLineRd" "addParaBreaks" "writeLines" "writeLinesUTF8" "of1" "writeBlock" "writeContent" "writeSection" "Rd2HTML" "<Anonymous>" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "try" "withCallingHandlers" "<Anonymous>" 
